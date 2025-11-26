@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Club de Lectura Guanarteme</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+  <h1>Club de Lectura Guanarteme</h1>
+  <p class="subtitle"><b>Compartir libros y cultura</b></p>
+
+  <nav>
+
+    <ul>
+      <li><a href="#proxima">Próxima reunión</a></li>
+      <li><a href="#resenas">Reseñas</a></li>
+      <li><a href="#calendario">Calendario</a></li>
+      <li><a href="#formulario">Inscripción</a></li>
+    </ul>
+
+  </nav>
+
+</header>
+
+<main>
+
+<section id="proxima">
+
+  <h2>Próxima reunión</h2>
+
+  <figure>
+    <img src="Laruedadeltiempo.webp" alt="Portada del libro de la próxima reunión">
+    <figcaption>Recomendación del mes</figcaption>
+  </figure>
+
+  <p><b>Fecha:</b> 7 de Septiembre - 18:00h<br>
+  <b>Lugar:</b> Sede vecinal de Guanarteme</p>
+
+  <h3>Agenda</h3>
+
+  <ul>
+    <li>Bienvenida</li>
+    <li>Comentario del libro</li>
+    <li>Debate abierto</li>
+    <li>Propuesta de próximos títulos</li>
+  </ul>
+
+</section>
+
+<br>
+
+<section id="resenas">
+
+  <h2>Reseñas</h2>
+
+  <article>
+    <h3>"Nacidos de la Bruma" – Brandon Sanderson</h3>
+    <p>Un libro que mezcla aventura, ciencia ficción y reflexión personal. Muy recomendado por los miembros.</p>
+  </article>
+
+  <article>
+    <h3>"Archivos de la Tormenta" – Brandon Sanderson</h3>
+    <p>Una historia en un mundo alienígena donde reaparecerán los antiguos valores.</p>
+  </article>
+
+</section>
+
+<br>
+
+<section id="calendario">
+  <h2>Calendario de reuniones</h2>
+
+  <table>
+
+    <caption>Próximos eventos</caption>
+
+    <tr>
+      <th>Fecha</th>
+      <th>Libro</th>
+      <th>Autor</th>
+      <th>Lugar</th>
+    </tr>
+
+    <tr>
+      <td>15 Septiembre</td>
+      <td>El viajero nocturno</td>
+      <td>Ana Pérez</td>
+      <td>Sede vecinal</td>
+    </tr>
+
+    <tr>
+      <td>1 Octubre</td>
+      <td>La Casa del Río</td>
+      <td>Luis Moreno</td>
+      <td>Sede vecinal</td>
+    </tr>
+
+  </table>
+
+</section>
+
+<br>
+
+<aside>
+
+  <h2>Consejos del club</h2>
+
+  <ul>
+    <li>Respeta los turnos de palabra</li>
+    <li>Llega con el libro leído</li>
+    <li>Trae tus recomendaciones</li>
+  </ul>
+
+</aside>
+
+<br>
+
+<section id="formulario">
+
+  <h2>Inscripción</h2>
+
+  <form action="https://webhook.site/26453a95-8f28-4128-bb18-999b7b2acbfb" method="post">
+
+    <label>Nombre:
+      <input type="text" name="nombre" required>
+    </label>
+
+    <label>Email:
+      <input type="email" name="email" required>
+    </label>
+
+    <label>Teléfono:
+      <input type="tel" name="telefono">
+    </label>
+
+    <label>Género literario favorito:
+      <select name="genero">
+        <option></option>
+        <option>Ciencia ficción</option>
+        <option>Fantasía</option>
+        <option>Misterio</option>
+        <option>Romance</option>
+        <option>Aventuras</option>
+      </select>
+    </label>
+
+    <label>Horario preferido:</label>
+    <label><input type="radio" name="horario" value="mañana"> Mañana</label>
+    <label><input type="radio" name="horario" value="tarde"> Tarde</label>
+
+    <label>Preferencias de contacto:</label>
+    <label><input type="checkbox" name="contacto_email"> Email</label>
+    <label><input type="checkbox" name="contacto_tel"> Teléfono</label>
+
+    <label>Comentarios:
+      <textarea name="comentarios"></textarea>
+    </label>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+
+  </form>
+
+</section>
+
+<br>
+
+<section>
+  <h2>Política de privacidad</h2>
+  <p>Los datos enviados se usarán únicamente para gestionar la participación en el Club de Lectura.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 Club de Lectura Guanarteme</p>
+  <a href="#top">Volver arriba</a>
+</footer>
+
+</body>
+</html>
