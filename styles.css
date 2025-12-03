@@ -1,0 +1,98 @@
+body {
+font-family: Arial, sans-serif;
+background: #f7f7f7;
+margin: 0;
+padding: 0;
+}
+
+
+header {
+background: #628b70;
+color: white;
+padding: 16px;
+text-align: center;
+}
+
+main {
+padding: 16px;
+}
+
+
+section, article, aside {
+background: white;
+padding: 16px;
+margin-bottom: 16px;
+border-radius: 6px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+h1, h2, h3 {
+margin-top: 0;
+}
+
+figure {
+margin: 0;
+}
+
+
+img {
+  width: 250px; 
+  height: auto; 
+  border-radius: 4px; 
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 8px;
+}
+
+
+th, td {
+border: 1px solid #ccc;
+padding: 8px;
+}
+
+
+caption {
+text-align: left;
+font-weight: bold;
+padding-bottom: 8px;
+}
+
+form label {
+display: block;
+margin-top: 12px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+width: 100%;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+
+nav li {
+display: inline-block;
+margin: 0 8px;
+}
+
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+
+nav a:hover {
+text-decoration: underline;
+}
